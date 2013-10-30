@@ -1,0 +1,15 @@
+<div class="hidden-print" role="complementary">
+  <ul class="nav sidebar">
+    {% for api_doc in site.api_docs %}
+      {% assign api_url = api_doc | prepend:'/api/' | append:'/' %}
+      {% if api_url == page.url %}
+        {% assign c = 'active' %}
+      {% else %}
+        {% assign c = '' %}
+      {% endif %}
+      <li class="{{ c }}">
+        <a href="{{ api_url }}">{{ api_doc | capitalize }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
