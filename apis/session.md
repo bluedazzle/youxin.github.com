@@ -6,10 +6,11 @@ api: true
 session: true
 ---
 
-### Login to get private token
-    POST /session
+#### Login
 
 Login to get private token
+
+    POST /session
 
 Parameters
 
