@@ -6,6 +6,7 @@ api_docs:
   - overview
   - session
   - users
+  - password
   - conversations
   - posts
   - receipts
