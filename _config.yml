@@ -5,3 +5,4 @@ relative_permalinks: false
 api_docs:
   - overview
   - session
+  - users
