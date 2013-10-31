@@ -22,7 +22,7 @@ users: true
 * `phone` (*Required* | **string**) - Valid phone starting with 1 (regex `/\A1\d+\Z/`)
 * `avatar` (*Optional* | **file**) - New avatar picture
 * `header` (*Optional* | **file**) - New header picture
-* `name` (*Optional* | **string**) - Valid name with length in 2..10
+* `name` (*Required* | **string**) - Valid name with length in 2..10
 * `bio` (*Optional* | **string**) - Biography of user
 * `gender` (*Optional* | **string**) - Valid gender (inclusion [男, 女])
 * `qq` (*Optional* | **string**) - QQ number with length in 5..11 (regex `/\A\d{5,11}\Z/`)
