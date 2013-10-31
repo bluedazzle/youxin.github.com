@@ -10,4 +10,5 @@ api_docs:
   - conversations
   - organizations
   - posts
+  - attachments
   - receipts
