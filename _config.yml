@@ -7,3 +7,4 @@ api_docs:
   - session
   - users
   - conversations
+  - posts
