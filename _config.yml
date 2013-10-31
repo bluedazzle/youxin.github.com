@@ -8,5 +8,6 @@ api_docs:
   - users
   - password
   - conversations
+  - organizations
   - posts
   - receipts
