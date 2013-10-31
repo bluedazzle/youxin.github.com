@@ -7,6 +7,9 @@ layout: default
   <section>
     <div class="container">
       <div class="col">
+        <div class="col-md-3">
+          {% include sidebar.html %}
+        </div>
         <div class="col-md-9">
           <article class="content">
             <h2>{{ page.title }}</h2>
@@ -14,9 +17,6 @@ layout: default
               {{ content }}
             </div>
           </article>
-        </div>
-        <div class="col-md-3">
-          {% include sidebar.html %}
         </div>
       </div>
     </div>

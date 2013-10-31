@@ -71,7 +71,11 @@ body {
   }
 }
 
-/* Style for nav li .active */
+/* Style for sidebar */
+.sidebar {
+  text-shadow: 0 1px 0 hsl(0, 100%, 100%);
+  background-color: hsl(264, 53%, 97%);
+}
 .sidebar li.active {
   border-right: 1px solid hsl(264, 34%, 36%);
   font-weight: bolder;
